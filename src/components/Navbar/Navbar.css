@@ -1,0 +1,37 @@
+nav {
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0.3px #ccc;
+}
+
+.brand {
+  padding-top: 15px;
+}
+nav .links {
+  padding-top: 25px;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #635352;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+nav .links a:hover {
+  color: #000;
+}
+
+nav .actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .actions button {
+  margin-left: 15px;
+}

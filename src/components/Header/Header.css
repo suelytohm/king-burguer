@@ -1,0 +1,16 @@
+.session {
+  background-image: url('../../assets/images/Banner01.png');
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  padding: 300px;
+}
+
+span {
+  background-color: #f59a1b;
+  padding: 0 5px;
+}
