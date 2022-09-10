@@ -25,13 +25,45 @@ nav a {
 
 nav .links a:hover {
   color: #000;
+  font-weight: bold;
 }
 
 nav .actions {
+  margin-top: 15px;
   display: flex;
   justify-content: space-between;
+  margin-right: 50px;
+}
+
+nav .actions #ifood {
+  margin-top: 15px;
+}
+
+nav .actions #instagram {
+  margin-top: 9px;
+  margin-right: 15px;
+}
+
+nav .vertical-separator {
+  height: 40px;
+  border: 1px solid #b50b04;
 }
 
 nav .actions button {
   margin-left: 15px;
+  width: 150px;
+  cursor: pointer;
+  transition: 0.3s all;
+  background-color: #f59a1b;
+
+  text-align: center;
+  justify-content: space-between;
+}
+
+nav .actions button:hover {
+  background-color: #b50b04;
+}
+
+nav .actions button img {
+  padding-right: 15px;
 }
