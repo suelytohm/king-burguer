@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <div className="session">
       <div className="main">
-        <h1>Uma experiência</h1>
+        <h1>Uma nova experiência!</h1>
         <img src={King} alt="king_burguer" />
         <h2>
           Para quem tem um <span>Apetite de um REI!</span>

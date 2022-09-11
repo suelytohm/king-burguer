@@ -3,7 +3,7 @@ import logo from '../../assets/images/logo.png'
 import instagram from '../../assets/images/instagram.png'
 import ifood from '../../assets/images/ifood.png'
 import whatsapp from '../../assets/images/whatsapp.png'
-import { Link } from 'react-router-dom'
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import { Button } from '../Button'
 
 export const Navbar = () => {
@@ -16,11 +16,11 @@ export const Navbar = () => {
         </Link>
       </div>
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/">Promoção</Link>
-        <Link to="/">Cardápio</Link>
-        <Link to="/">Comentários</Link>
-        <Link to="/">Contato</Link>
+        <Link smooth to="home">Home</Link>
+        <Link smooth to="promocao">Promoção</Link>
+        <Link smooth to="/">Cardápio</Link>
+        <Link smooth to="/">Comentários</Link>
+        <Link smooth to="/">Contato</Link>
       </div>
       <div className="actions">
         <Link to="/">
